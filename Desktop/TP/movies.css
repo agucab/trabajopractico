@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.html {
+    font-size: 10px;
+}
+body {
+    display:grid;
+    position:relative;
+}
+.html, body {
+    background-image: url(./img/posters/kubrick.png);
+    background-size: contain;
+}
+.encabezado {
+    background-image: url(./img/pelicula.jpg);
+    background-color: rgb(197, 34, 23);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+    height: 30vh;
+    
+
+}
+.menu_superior {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.9rem;
+    text-align: left;
+    list-style-type: none;
+    margin-left:0.2cm;
+    padding-top:0.5cm;
+    display:inline-block;
+     
+}
+.menu_superior li {
+    list-style-type: none;
+    text-align:center;
+    display:inline-block;
+    padding: 0.5rem ;
+}
+.menu_superior a {
+    text-decoration:none;
+    color: rgb(216, 212, 226);
+    font-weight: 600;
+    
+    
+}
+
+.titulo {
+    font-family: fantasy;
+    color: rgb(31, 32, 58);
+    
+}
+.estrenos {
+    background-color: rgb(209, 187, 238);
+    width: 80%;
+    float:left;
+}
+.estrenos h2 {
+    color:black;
+}
+
+.estrenos h3 {
+background-color: rgba(165, 42, 42, 0.39);
+}
+.imagenes {
+    background-color: beige;
+   display:flex;
+    
+}
+.imagenes img {
+    width:30%;
+    box-shadow: 2px 0px rgb(221, 203, 43) ;
+}
+.imagenes p {
+    color:rgb(87, 101, 221);
+    position:relative;
+    width:30%;
+    padding:0.5rem;
+    font-size: medium;
+    
+}
+.imagenes iframe {
+    position:sticky;
+    width:40%;
+    padding: 10px 5px 10px 5px;
+}
+.recomendaciones {
+    background-color: rgb(243, 225, 175);
+     width:20%;
+    float:right;
+    line-height: 2rem;
+    height:881px;
+    box-sizing: border-box;
+    border: solid rgba(3, 209, 245, 0.397);
+    box-shadow: 2px 2px 5px rgba(3, 209, 245, 0.397) ;
+    border-bottom: 4px;
+}
+.recomendaciones img {
+    width:100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+.recomendaciones ul {
+    list-style-type: circle;
+}
+
+.pie_de_pagina {
+    text-align:center;
+    background-color: black;
+    color:rgb(147, 158, 167);
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+
+}
+
+/* tabletas */
+@media (min-widht:480px) {
+    .recomendaciones {
+
+    }
+
+   
+        
